@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Tic Tac Toe"
+    android:layout_marginTop="50dp"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="30sp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/idTVHead"
+    android:padding="5dp"
+    android:gravity="center"/>
+
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/idBtnSinglePlayer"
+    android:textColor="@color/black"
+    android:text="Single Player"
+    android:layout_below="@+id/idTVHead"
+    android:layout_marginTop="40dp"
+    android:layout_centerHorizontal="true"
+    android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idBtnMultiPlayer"
+        android:textColor="@color/black"
+        android:text="MultiPlayer"
+        android:layout_below="@id/idBtnSinglePlayer"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"/>
+</RelativeLayout>
